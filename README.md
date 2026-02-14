@@ -29,7 +29,7 @@ This **School Database Management System** is created as part of the **Brainwave
 ✔️ Real-time access to student records  
 ✔️ Improved administrative decision-making  
 
-## 📌 Database Schema Overview
+## Database Schema Overview
 ### 1️⃣ **Students Table**
 - Attributes: `student_roll (PK)`, `name`, `email`, `mobile`, `semester`, `section`, `status` (Active, Graduated, Suspended)
 - Relationships: Linked to Parents, Grades, Fees, Disciplinary, and Library
