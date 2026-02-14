@@ -1,27 +1,27 @@
 # 📌 School Database Management System
 
-## 📖 Project Overview
+## Project Overview
 This **School Database Management System** is created as part of the **Brainwave Matrix Database Interns Project**. It helps to manage student data better by using a **centralized database**. The system stores organized information about **students, academics, finance, disciplinary records, and the library**.
 
-## 🛠️ Tools & Technologies
+## Tools & Technologies
 - **Database:** MySQL
 - **Design & Management:** MySQL Workbench
 - **ER Diagram Creation:** MySQL Reverse Engineer
 
-## 🎯 Project Goals
+## Project Goals
 - Centralize student, academic, financial, and disciplinary data
 - Provide real-time access to student records
 - Reduce manual record-keeping for school administration
 - Improve decision-making through structured data
 
-## 📂 Key Modules
+## Key Modules
 - **Student Management**: Handles student profiles, enrollment, and personal data
 - **Academic Records**: Course registration, grades, and performance tracking
 - **Financial Tracking**: Fee management, payments, and due tracking
 - **Library System**: Book lending and return tracking
 - **Disciplinary Actions**: Incident reports and actions taken
 
-## 🔑 Key Features & Benefits
+## Key Features & Benefits
 ✔️ Student/Parent profile management  
 ✔️ Course and grade tracking  
 ✔️ Fee and library management  
@@ -66,10 +66,10 @@ This **School Database Management System** is created as part of the **Brainwave
 - Attributes: `case_id (PK)`, `student_roll (FK)`, `incident_date`, `description`, `action_taken`
 - Relationships: Linked to Students
 
-## 📊 ER Diagram
+## ER Diagram
 *(Refer to the project files for the complete ER diagram)*
 
-## 📜 Sample Queries
+## Sample Queries
 ### 1️⃣ Retrieve all Graduated Students:
 ```sql
 SELECT * FROM students WHERE current_status = 'Graduated';
@@ -124,7 +124,7 @@ Call the procedure:
 CALL GetAllFees();
 ```
 
-## 📞 Contact Information
+## Contact Information
 - **Author:** A. Sairam Kumar Patro  
 - **Email:** [itsairamkumar@gmail.com](mailto:itsairamkumar@gmail.com)  
 - **Portfolio:** [🌐 www.isairamkumar.com](https://hisairam.notion.site/12ad1ebfffda803192bbebe2ac1cca16)  
