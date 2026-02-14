@@ -1,4 +1,4 @@
-# 📌 School Database Management System
+# School Database Management System
 
 ## Project Overview
 This **School Database Management System** is created as part of the **Brainwave Matrix Database Interns Project**. It helps to manage student data better by using a **centralized database**. The system stores organized information about **students, academics, finance, disciplinary records, and the library**.
